@@ -1,0 +1,102 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+
+} 
+.container{
+  color: rgb(145, 0, 0) !important;
+
+position: relative;
+margin-bottom: 50px;
+
+
+}
+.mains{
+margin-top: 30px;
+  
+}
+
+.TheResult{
+  background-color: black ;
+  width: 15em;
+  height: 10em;
+  border-radius: 14px;
+  margin: auto;
+  color: aliceblue;
+
+position: absolute;
+top: 100px;
+right: 527px;
+
+
+}
+h3{
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+
+}
+
+.itemm {
+  border-radius: 2%;
+  box-shadow: 2px 2px 2px #2c2525;
+
+    background-color: rgb(10, 49, 49);
+  height: 80vh;
+  width:80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+h6{
+  align-items: center;
+  font-weight: 700;
+font-size: large;
+color: black;
+}
+.submitbutton{
+  position: absolute;
+  top: 120px;
+  font-weight: 900 !important;
+font-size: large !important;
+background-color: black !important;
+
+}
+.birth{
+  margin-top: 30px;
+  position: absolute;
+  left: 0;
+  top:0;
+  left: 0;
+  right: 0;
+  margin-left: 50px;
+
+}
+
+.current{
+  margin-top: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 50px;
+
+}
+@keyframes nitin{
+
+  to{
+
+      transform: rotate(360deg);
+  }
+}
